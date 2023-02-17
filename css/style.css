@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+button {
+  border: none;
+  list-style-type: none;
+  cursor: pointer;
+  background: none;
+  padding: 5px;
+}
+button:hover {
+  background: black;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.header {
+  width: 100vw;
+  height: 70px;
+  background: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner {
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  width: 920px;
+}
+.conteiner-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.authorization {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.input {
+}
+.output {
+}
+.btn-out {
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.btn-vidio {
+}
+.btn-img {
+}
+.btn-music {
+}
+/*окно авторизации*/
+.input_user {
+  display: none;
+  position: fixed;
+  width: 170px;
+  top: 40%;
+  left: 45%;
+  padding: 20px;
+  border-radius: 16px 4px 16px 4px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.cancellation {
+  margin-left: 160px;
+  margin-bottom: 10px;
+}
+.error-user {
+  display: none;
+  margin-bottom: 10px;
+  color: red;
+  font-weight: 700;
+  text-align: center;
+}
+.user-email {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email-text {
+  margin-bottom: 10px;
+}
+.email-input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 4px;
+  outline: 0 !important;
+}
+
+.email-input:focus {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.user-password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.password-text {
+  margin-bottom: 10px;
+}
+.password-input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 4px;
+  outline: 0 !important;
+}
+
+.password-input:focus {
+  border: none;
+  border-bottom: 1px solid black;
+}
+.button-user {
+}
+.user-int {
+}
