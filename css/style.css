@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+input {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -45,9 +49,16 @@ button:hover {
 }
 .input {
 }
+.btn-user {
+  display: none;
+}
 .output {
 }
 .btn-out {
+  display: none;
+}
+.registration {
+  display: block;
 }
 .navigation {
   display: flex;
@@ -70,7 +81,8 @@ button:hover {
   padding: 20px;
   border-radius: 16px 4px 16px 4px;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 1px solid coral;
+  background-color: coral;
 }
 .cancellation {
   margin-left: 160px;
@@ -94,18 +106,18 @@ button:hover {
 }
 .email-input {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 4px;
   outline: 0 !important;
 }
 
 .email-input:focus {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .user-password {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
@@ -115,16 +127,89 @@ button:hover {
 }
 .password-input {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 4px;
   outline: 0 !important;
 }
 
 .password-input:focus {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .button-user {
+  display: none;
 }
 .user-int {
+}
+
+.error-user {
+  display: block;
+  color: red;
+  font-weight: 700;
+}
+/*блог регистрации*/
+.user-registration {
+  display: none;
+  position: fixed;
+  width: 190px;
+  top: 35%;
+  left: 45%;
+  padding: 20px;
+  border-radius: 16px 4px 16px 4px;
+  margin: 0 auto;
+  border: 1px solid coral;
+  background-color: coral;
+}
+.cancellation-user {
+  margin-left: 160px;
+  margin-bottom: 10px;
+}
+.registration-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.registration-text {
+  margin-bottom: 10px;
+}
+.registration-text p {
+  text-align: center;
+}
+.registration-input {
+  display: flex;
+  flex-direction: column;
+}
+.newUser {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 4px;
+  outline: 0 !important;
+}
+.new-user-name {
+  margin-bottom: 8px;
+}
+.new-user-age {
+  margin-bottom: 8px;
+}
+.new-user-date {
+  margin-bottom: 8px;
+}
+.new-user-phone {
+  margin-bottom: 8px;
+}
+.new-user-email {
+  margin-bottom: 8px;
+}
+.new-user-cyti {
+  margin-bottom: 8px;
+}
+
+.new-user-street {
+  margin-bottom: 8px;
+}
+.new-user-hose {
+  margin-bottom: 8px;
+}
+.new-user-password {
 }

@@ -8,21 +8,75 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="user-registration">
+      <button class="cancellation-user"><p>X</p></button>
+      <div class="registration-content">
+        <div class="registration-text">
+          <p>Ведите свои данные для регистрации</p>
+        </div>
+        <div class="registration-input">
+          <input
+            class="newUser new-user-email"
+            type="email"
+            placeholder="Ваш Email"
+          />
+          <input class="newUser new-user-name" type="text" placeholder="Имя" />
+          <input
+            class="newUser new-user-age"
+            type="tel"
+            placeholder="Возраст"
+          />
+          <input class="newUser new-user-date" type="date" />
+          <input
+            class="newUser new-user-phone"
+            type="tel"
+            placeholder="Номур телефона"
+          />
+
+          <input
+            class="newUser new-user-cyti"
+            type="text"
+            placeholder="Город"
+          />
+          <input
+            class="newUser new-user-street"
+            type="text"
+            placeholder="Улицу"
+          />
+          <input
+            class="newUser new-user-hose"
+            type="tel"
+            placeholder="Номер дома"
+          />
+          <input
+            class="newUser new-user-password"
+            type="password"
+            placeholder="Пароль"
+          />
+        </div>
+      </div>
+      <div class="button-registration">
+        <button class="btn-reg"><p>Регистрация</p></button>
+      </div>
+    </div>
     <div class="input_user">
       <button class="cancellation"><p>X</p></button>
-      <div class="error-user">
-        <p>Не верный логин или пароль</p>
-      </div>
-      <div class="user-email">
-        <p class="email-text">Введите свой логин</p>
-        <input type="email" placeholder="email" class="email-input" />
-      </div>
-      <div class="user-password">
-        <p class="password-text">Введите свой пароль</p>
-        <input type="password" placeholder="пароль" class="password-input" />
-      </div>
-      <div class="button-user">
-        <button class="user-int"><p>Вход</p></button>
+      <div class="user-content">
+        <div class="error-user"></div>
+        <div class="user-email">
+          <p class="email-text">Введите свой логин</p>
+          <input type="email" placeholder="email" class="email-input" />
+        </div>
+        <div class="button-next">
+          <button class="btn-next"><p>Далее</p></button>
+        </div>
+        <div class="user-password">
+          <p class="password-text">Введите свой пароль</p>
+          <input type="password" placeholder="пароль" class="password-input" />
+        </div>
+        <div class="button-user">
+          <button class="user-int"><p>Вход</p></button>
+        </div>
       </div>
     </div>
     <header class="header">
@@ -30,9 +84,11 @@
         <div class="conteiner-inner">
           <div class="authorization">
             <div class="input">
+              <button class="btn-user"></button>
               <button class="btn-int"><p>Вход</p></button>
             </div>
             <div class="output">
+              <button class="btn-out"><p>Выход</p></button>
               <button class="registration"><p>Регистрация</p></button>
             </div>
           </div>
